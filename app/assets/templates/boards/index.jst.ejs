@@ -1,0 +1,12 @@
+<h1>Boards Index</h1>
+
+<ul class='list-group'>
+	<% boards.models.forEach(function(board){ %>
+		<li class='list-group-item'>
+			<a href='/#/boards/<%= board.id %>'> <%= board.escape('title') %> </a>
+		</li>
+	<%});%>
+</ul>
+<br>
+
+<button class='btn btn-primary'>Add Board</button>

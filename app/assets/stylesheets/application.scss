@@ -1,0 +1,65 @@
+/*
+ *
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ *= require jquery.ui.all
+ */
+
+@import "bootstrap";
+
+
+div.list-item{
+	border:1px solid black;
+	background-color:#6D7DE3;
+	opacity:.8;
+	border-radius:1%;
+	margin:3px;
+	font-size:16px;
+	
+	
+}
+
+div.back{
+	
+background-color:#9FBED4; 
+
+}
+body{
+	background-color:#9FBED4; 
+}
+
+form.form-board{
+	font-size:16px;
+}
+
+nav{
+	background-color:grey; 
+}
+
+span.board-title{
+	font-size:32px;
+	
+}
+
+div.l-item{
+	margin:3px;
+}
+
+a.list-group-item{
+	background-color:#63D4A8;
+	opacity:.8;
+}
+
+div.list-group{
+	min-height:50px;
+}
+

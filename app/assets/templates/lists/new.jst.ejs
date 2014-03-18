@@ -1,0 +1,12 @@
+<form class='form-board'>
+	<label> Add List
+		<input type='text' name='list[title]'>
+	</label>
+	
+	<input type='hidden' name='list[board_id]' value='<%= board.id %>'>
+	
+	<input type='hidden' name='list[rank]' value='<%= board.lists().length %>'>
+	
+	<button type='submit' class='make-list'> Make list </button>
+
+</form>

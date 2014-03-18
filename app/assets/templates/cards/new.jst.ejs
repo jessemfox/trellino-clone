@@ -1,0 +1,18 @@
+<div class='col-xs-10 col-xs-offset-1'>
+<form>
+	<label> Add Card
+		<input type='text' name='card[title]'>
+		
+	</label><br>
+	<label> Description
+		<textarea name='card[description]'></textarea>
+	</label>
+	
+	<input type='hidden' name='card[list_id]' value='<%= list.id %>'>
+	
+	<input type='hidden' name='card[rank]' value='<%= list.cards().length %>'>
+	
+	<button type='submit' class='make-card'> Make Card </button>
+
+</form>
+</div>
